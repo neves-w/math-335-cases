@@ -1,0 +1,29 @@
+---
+title: "Mock Case Study"
+author: "Wanderson Neves"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Article 
+
+### Link to Article: https://ourworldindata.org/energy-offshoring
+
+The article talks about energy consumption for many countries from 1995 to 2020, but now considering off-shoring, or how much of that energy comes from their operations overseas and then considering how much energy is used per person on those countries. You can observe countries that are energy exporters, Like Russia, and other countries that depend so much on Russian energy, maybe natural gas energy, like Germany and France. What helps many countries that need to import energy is how efficient they are in its use without compromising development, which is not true for developing countries, like South Africa. 
+
+The article visualization, although great with its interactivity (you can change countries data and time range for deeper understanding), could improve the labeling of data. They opted to use positive values (red) and negative values (blue), and depending on how high the value is, the color gets darker or lighter. It may have been the solution for such complex representation but took me a while to grasp what was that about.
+
+
+#  Plot
+
+
+```{r}
+plot(x = iris$Sepal.Length,
+ y = iris$Petal.Length, 
+ col = iris$Species, pch = 19)
+```
+
+
